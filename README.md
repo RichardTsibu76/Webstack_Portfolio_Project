@@ -3,6 +3,10 @@ AUTHOR OF THIS APPLICATION
 
 Name : Richard Tsibu Darkoh
 Email: paakwesi5976@gmail.com
-Country: Ghana
+Country: Ghana 
+
+Name: Endurance Apeh
+Email: 
+Country: Nigeria
 
 
