@@ -1,3 +1,3 @@
-This is the README.md file for the Hotel Booking application
+This is the README.md file for the Hotel Booking applicaton
 
 
