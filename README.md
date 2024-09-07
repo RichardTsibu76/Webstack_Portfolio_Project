@@ -5,11 +5,16 @@ AUTHOR
 Name : Richard Tsibu Darkoh
 Email: paakwesi5976@gmail.com
 Country: Ghana
+
+Name: Endurance Apeh
+Email: apehendurance2@gmail.com
+Country: Nigeria
+
 Technologies Used:
 
 Reacts
-Reason for the using this Tech-Stack
-Solidifying Our understanding in React.js
+Reason for using this Tech-Stack
+Solidifying Our understanding in using React.js
 
 Contentful for content Managament
 
