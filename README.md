@@ -5,12 +5,6 @@ AUTHOR
 Name : Richard Tsibu Darkoh
 Email: paakwesi5976@gmail.com
 Country: Ghana
-
-Name: Endurance Apeh
-Email: apehendurance2@gmail.com
-Country: Nigeria
-
-
 Technologies Used:
 
 Reacts
