@@ -48,4 +48,23 @@ class RoomProvider extends Component {
   componentDidMount() {
    this.getData()
   }
+  // format data
+  formatData(items) {
+    let tempItems = items.map(item => {
+      let id = item.sys.id
+      let images = item.fields.images.map(image => image.fields.file.url)
+
+      let room = {...item.fields, images, id};
+      return room;
+
+    });
+    return tempItems;
+  }
+
+  // get room
+  getRoom = (slug) => {
+    let tempRooms = [...this.state.rooms];
+    const room = tempRooms.find(room => room.slug === slug);
+    return room;
+  }
 }
