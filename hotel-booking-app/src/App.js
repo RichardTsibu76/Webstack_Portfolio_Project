@@ -9,7 +9,7 @@ import Error from './pages/Error';
 
 import Navbar from './components/Navbar';
 
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'; 
 
 
 
@@ -28,4 +28,3 @@ function App() {
 }
 
 export default App;
-~                       
