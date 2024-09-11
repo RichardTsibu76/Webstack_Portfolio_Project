@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 //import items from './data'
 import client from "./contentful"
-
+ 
 const RoomContext = React.createContext();
 
 class RoomProvider extends Component {
@@ -25,8 +25,9 @@ class RoomProvider extends Component {
   getData = async () => {
     try{
       let response = await client.getEntries({
-        content_type: "luxuryRoom"
+      content_type: "luxuryRoom",
       })
+      console.log(response.items)
       let rooms = this.formatData(response.items);
       let featuredRooms = rooms.filter(room => room.featured === true);
       let maxPrice = Math.max(...rooms.map(item => item.price));
@@ -74,8 +75,8 @@ class RoomProvider extends Component {
       [name]:value
     },
     this.filterRooms
-  )
-  }
+  );
+  };
   filterRooms = ()=>{
     let{
       rooms,
@@ -95,7 +96,7 @@ class RoomProvider extends Component {
 
     // filter by type
     if(type !== 'all'){
-      tempRooms = tempRooms.filter(room => room.type === type)
+      tempRooms = tempRooms.filter(room => room.type === type);
     }
 
     // filter by capacity

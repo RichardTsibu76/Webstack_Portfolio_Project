@@ -20,7 +20,6 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
 }
@@ -160,7 +159,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/def.jpg") center/cover no-repeat;
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +252,6 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
-  text-transform: uppercase;
 }
 .services p {
   width: 80%;

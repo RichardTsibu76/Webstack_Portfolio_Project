@@ -27,4 +27,3 @@ export default function RoomList({rooms}) {
     </section>
   )
 }
-
