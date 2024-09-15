@@ -43,7 +43,7 @@ export default class Services extends Component {
       {
         icon: <FaPhone />,
         title: "ROOMS IN SOUTH AFRICA",
-        info: " Located at 1234 Johannesburg, South Africa. Contact us on +27-800-123-4567 for any queries or assistance."
+        info: " Located at 1234 Johannesburg, South Africa. Contact us on +27-800-123-4567 for any queries or assistance.."
       }
 
     ]
