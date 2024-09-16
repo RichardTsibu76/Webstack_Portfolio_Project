@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Title from './Title';
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
+import { FaCocktail, FaHiking, FaShuttleVan, FaBeer, FaPhone } from 'react-icons/fa';
 
 export default class Services extends Component {
   state = {
@@ -24,6 +24,26 @@ export default class Services extends Component {
         icon: <FaBeer />,
         title: "Soft Drinks",
         info: " We offer a wide selection of non-alcoholic beverages to cater to all your needs"
+      },
+      {
+        icon: <FaPhone />,
+        title: "ROOMS IN USA",
+        info: " Contact us on +1-800-123-4567 for any queries or assistance."
+      },
+      {
+        icon: <FaPhone />,
+        title: " ROOMS IN GHANA",
+        info: " Located at 1234 Accra, Ghana. Contact us on +233-800-123-4567 for any queries or assistance."
+      },
+      {
+        icon: <FaPhone />,
+        title: "ROOMS IN NIGERIA",
+        info: " We got you covered just give us call on +234-800-123-4567 for any queries or assistance."
+      },
+      {
+        icon: <FaPhone />,
+        title: "ROOMS IN SOUTH AFRICA",
+        info: " Located at 1234 Johannesburg, South Africa. Contact us on +27-800-123-4567 for any queries or assistance.."
       }
 
     ]

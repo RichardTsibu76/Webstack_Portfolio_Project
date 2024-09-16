@@ -159,7 +159,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/herobg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -511,4 +511,109 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+/*Styling Booknow btn*/
+
+
+/* booking form */
+.form-container{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.form-container h1{
+  color: var(--primaryColor);
+  padding: 30px;
+}
+.booking-form{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.booking-form-input-field label{
+  font-weight: bolder;
+}
+.booking-form-input-field input{
+  width: 60%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.booking-form-input-field input[type="radio"]{
+  display: inline;
+  width: 10%;
+
+}
+.booking-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.booking-btns button{
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Ensure your main form container has space for the popup 
+.form-container {
+  position: relative;
+  padding: 20px;
+}
+*/
+/* Popup container styles */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it's above other content */
+   /* Initially hidden */
+}
+
+/* Success pop-up styles */
+.popup.success {
+  border: 1px solid green;
+  background-color: #d4edda; /* Light green background for success */
+  color: #155724; /* Dark green text color for success */
+}
+
+/* Error pop-up styles */
+.popup.error {
+  border: 1px solid red;
+  background-color: #f8d7da; /* Light red background for error */
+  color: #721c24; /* Dark red text color for error */
+}
+
+/* Popup button styles */
+.popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
 
