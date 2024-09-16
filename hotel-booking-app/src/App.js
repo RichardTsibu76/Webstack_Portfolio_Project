@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import './Auth.js';
+//import './Auth.js';
+import RoomBooking from './pages/RoomBooking';
 
 import Home from './pages/Home';
 import { Rooms } from './pages/Rooms';
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rooms" element={<Rooms />} />
+        <Route path="/book-now" element={<RoomBooking/>}/>
         <Route path="/rooms/:slug" element={<SingleRoom />} />
         <Route path="*" element={<Error />} />
       </Routes>
