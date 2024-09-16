@@ -13,6 +13,9 @@ export default function Home() {
         <Link to="/rooms" className="btn-primary">
           our rooms
         </Link>
+        <Link to="/book-now" className="btn-primary">
+         Book Now
+        </Link>
       </Banner>
     </Hero>
     <Services />
