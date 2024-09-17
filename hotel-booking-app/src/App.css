@@ -65,6 +65,9 @@ h6 {
   text-transform: uppercase;
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 .btn-primary:hover {
   background: transparent;
   color: var(--primaryColor);
@@ -130,8 +133,37 @@ h6 {
 }
 .nav-links a:hover {
   color: var(--primaryColor);
+
+}
+/*contiuation of Navbar*/
+/* src/Logo.css */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 3px;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  text-shadow: 6px -3px 10px rgb(73, 71, 71);
+  letter-spacing: 7px;
+  font-size: 0.5em;
 }
 
+.hotel-text {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.reservation-text {
+  color: var(--primaryColor);
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 6px -3px 10px var(--primaryColor);
+}
+/*end of navbar continuation*/
 .show-nav {
   height: 100px;
 }
@@ -154,6 +186,7 @@ h6 {
     padding: 0.5rem 0;
   }
 }
+
 /* end of navbar */
 /* Hero */
 .defaultHero,
@@ -616,4 +649,9 @@ h6 {
 .popup button:hover {
   background-color: #0056b3;
 }
+.book-room-btn{
+  margin-left: 50px;
+}
+
+
 
