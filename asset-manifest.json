@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Webstack_Portfolio_Project/static/css/main.984fc272.css",
+    "main.js": "/Webstack_Portfolio_Project/static/js/main.0422c37f.js",
+    "static/js/453.a5d5ee89.chunk.js": "/Webstack_Portfolio_Project/static/js/453.a5d5ee89.chunk.js",
+    "static/media/herobg.jpg": "/Webstack_Portfolio_Project/static/media/herobg.accead3da88277bfc259.jpg",
+    "static/media/loading-arrow.gif": "/Webstack_Portfolio_Project/static/media/loading-arrow.dd29210f39418b50813e.gif",
+    "static/media/room-1.jpeg": "/Webstack_Portfolio_Project/static/media/room-1.05b90599c65239c23f1c.jpeg",
+    "static/media/room-2.jpeg": "/Webstack_Portfolio_Project/static/media/room-2.48c6018125bd1cf193ba.jpeg",
+    "index.html": "/Webstack_Portfolio_Project/index.html",
+    "main.984fc272.css.map": "/Webstack_Portfolio_Project/static/css/main.984fc272.css.map",
+    "main.0422c37f.js.map": "/Webstack_Portfolio_Project/static/js/main.0422c37f.js.map",
+    "453.a5d5ee89.chunk.js.map": "/Webstack_Portfolio_Project/static/js/453.a5d5ee89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.984fc272.css",
+    "static/js/main.0422c37f.js"
+  ]
+}
